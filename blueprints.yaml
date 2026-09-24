@@ -158,7 +158,8 @@ form:
     custom_favicon:
       type: file
       label: Custom Favicon
-      help: Saved to user/themes/quark2/images/favicon. The file stays put across theme updates.
+      help: Saved to user/themes/quark2/images/favicon. The file stays put across theme updates. Max size 100kB.
+      filesize: 0.1
       size: large
       destination: 'theme://images/favicon'
       multiple: false
