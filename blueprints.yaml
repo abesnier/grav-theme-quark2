@@ -155,6 +155,16 @@ form:
       title: Icons
       underline: true
 
+    custom_favicon:
+      type: file
+      label: Custom Favicon
+      help: Saved to user/themes/quark2/images/favicon. The file stays put across theme updates.
+      size: large
+      destination: 'theme://images/favicon'
+      multiple: false
+      accept:
+        - image/*
+
     fontawesome.enabled:
       type: toggle
       label: Font Awesome 7
